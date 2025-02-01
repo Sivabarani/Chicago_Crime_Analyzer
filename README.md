@@ -27,16 +27,16 @@ FAMILY MEMBER”
 
 **PowerBi Details**
 **Dashboard**
-I've created two main slides for the dashboard: Dashboard and Dashboard Details.
-In the Dashboard slide, I have included the counts for total crimes, severe crimes, non-severe crimes, the number of arrests, and the number of non-arrests.
+1. I've created two main slides for the dashboard: Dashboard and Dashboard Details.
+2. In the Dashboard slide, I have included the counts for total crimes, severe crimes, non-severe crimes, the number of arrests, and the number of non-arrests.
  The dashboard also includes interactive filters, allowing you to explore the data by Year, Crime Type (Primary Type), Location, Arrest Status, Domestic vs. Non-Domestic, and incidents of time Additionally, 
-by clicking the i icon next to the arrest rate, you'll be taken to the Dashboard Details page for more in-depth crime information. You can easily return to the main dashboard by clicking the back button.
-On the Dashboard page, I’ve included several visual elements:
-A Location Map to show where crimes are happening geographically.
-A Donut Chart to visualize the distribution of crime types.
-A Tree Map to provide detailed crime information.
-A Stacked Bar Chart that displays crime trends across months 
-One of the most valuable features is the Tree Map, which allows us to identify areas with the highest crime rates and highlight the most common crime types in those areas.
+3. by clicking the i icon next to the arrest rate, you'll be taken to the Dashboard Details page for more in-depth crime information. You can easily return to the main dashboard by clicking the back button.
+4. On the Dashboard page, I’ve included several visual elements:
+    i. A Location Map to show where crimes are happening geographically.
+   ii. A Donut Chart to visualize the distribution of crime types.
+  iii. A Tree Map to provide detailed crime information.
+   iv. A Stacked Bar Chart that displays crime trends across months
+5. One of the most valuable features is the Tree Map, which allows us to identify areas with the highest crime rates and highlight the most common crime types in those areas.
 
 **Other pages Details**
 
