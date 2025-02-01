@@ -24,7 +24,53 @@ FAMILY MEMBER”
 4. Use PostgreSQL to get data in Power BI.
 5. Used Exploratory Data Analysis (EDA) to find patterns using Power BI
 6. Used Power BI to create visuals for the Interactive Dashboard.
- 
+
+**PowerBi Details**
+**Dashboard**
+I've created two main slides for the dashboard: Dashboard and Dashboard Details.
+In the Dashboard slide, I have included the counts for total crimes, severe crimes, non-severe crimes, the number of arrests, and the number of non-arrests.
+ The dashboard also includes interactive filters, allowing you to explore the data by Year, Crime Type (Primary Type), Location, Arrest Status, Domestic vs. Non-Domestic, and incidents of time Additionally, 
+by clicking the i icon next to the arrest rate, you'll be taken to the Dashboard Details page for more in-depth crime information. You can easily return to the main dashboard by clicking the back button.
+On the Dashboard page, I’ve included several visual elements:
+A Location Map to show where crimes are happening geographically.
+A Donut Chart to visualize the distribution of crime types.
+A Tree Map to provide detailed crime information.
+A Stacked Bar Chart that displays crime trends across months 
+One of the most valuable features is the Tree Map, which allows us to identify areas with the highest crime rates and highlight the most common crime types in those areas.
+
+**Other pages Details**
+
+1. _Trends Over Time:_
+This section displays crime trends in a line chart, broken down by year, month, and day. 
+
+2. _Peak Crime Hours:_
+This heatmap shows the number of crimes reported each hour, broken down by day. 
+
+3. _Crime Hotspots:_
+This section presents a geographical map of crime locations, helping to identify high-risk areas. 
+
+4. _Distribution of Crime Types: _
+This section displays the distribution of crime types across various locations using a horizontal bar chart.
+
+5. _Severity Analysis: _
+This section shows the severity of crimes. 
+I have created a new column named "Severity" to categorize crimes as either "Severe" or "Non-severe" based on their primary type in DAX. 
+From this analysis, the count of theft is high.
+
+6. _Arrest Rates:_
+On this page, I have added a donut chart showing the total number of arrests. 
+I have also calculated arrest rates across different locations, primary types, and time periods using a grouped chart.
+
+7. _Domestic vs. Non-Domestic: _
+I have added a grouped chart to show the count of domestic and non-domestic crimes in each location.
+
+8. _Location Description: _
+I have created a stacked bar chart to visualize the distribution of each crime across different locations. 
+
+9. _Seasonal Trends:_
+I have included line charts to show crime rates across different times of day, seasons, and periods. 
+For the season, I added a new column named "Season" using DAX code. 
+
 **Requirements**
 1. pandas
 2. sqlalchemy
